@@ -1,0 +1,113 @@
+/*!
+   Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ /*-----------------------------------------------navbar-section----------------------------------------------------------------------*/
+ body
+ {
+ 	margin :0px;
+ 	padding: 0px; 
+ 	font-family: serif;
+ }
+ .navbar-nav li a
+  {
+    color: #fff !important; 
+    font-weight: 600; 
+    float: right;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px; 
+  }
+  #mainNav
+{
+  background-image: linear-gradient(to right , #a517ba, #5f1782);
+  color: #fff !important;	
+}
+ 
+ /*slider-images----------------------------------*/
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section {
+  padding: 150px 0;
+}
+ /*----------------------------------------Services-section------------------------------------------------------------*/ 
+.text
+{
+ font-family: serif;
+ border-bottom: thick solid #7b1798; 
+ width: 20%;
+ font-size: 40px;
+ margin: auto;  
+}
+.main-heading
+{
+  color: #7b1798;
+}
+.about-title 
+{
+  background-image: linear-gradient(to right , #a517ba, #5f1782);
+  color: white; 
+}
+.s-text 
+{
+  background-image: linear-gradient(to right , #a517ba, #5f1782); 
+  color: white;
+  font-size: 20px;
+  /* width: 100%; */	
+}
+.main-heading
+{
+	font-size: 40px;
+}
+ .btn-primary
+{
+  box-shadow: none;
+	padding: 8,25px; 
+  border: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to right , #a517ba, #5f1782); 
+  text-decoration: none;
+  text-align: center;
+}
+/*---------------------------------------------About-Section---------------------------------------------*/
+
+
+ /*----------------------------------------------This section eding without css Happy (About-Section (:---------------------------*/
+
+
+/* --------------------------------------------------Footer-Section----------------------------------*/
+ footer
+{
+  background-image: linear-gradient(to right , #a517ba, #5f1782);
+ /* padding: 30px;*/
+  width: 100%;
+}
+.smed i
+{
+  color: #fff !important;
+  font-size: 40px;
+  margin: 10px;
+  /*padding-top: 10px;
+*/
+}
+.smed i:hover
+{
+  color: #EE82EE !important;
+  transform: translateY(-10px);
+  transition: 0.2S;
+}
+.footer
+{
+  margin-top: 40px;
+}
+ 
